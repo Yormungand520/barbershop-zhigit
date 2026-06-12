@@ -22,7 +22,7 @@ export function HeroSection() {
         {/* Logo */}
         <div className="animate-fade-in-up opacity-0 mb-6">
           <img
-            src="/logo.jpg"
+          src={`${import.meta.env.BASE_URL}logo.jpg`}
             alt="Jigit Barbershop"
             className="w-28 h-28 sm:w-36 sm:h-36 mx-auto rounded-full object-cover border-2 border-white/20"
           />
